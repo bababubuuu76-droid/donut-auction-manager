@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donut-auction-manager",
+  "version": "${version}",
+  "name": "Donut Auction Manager",
+  "description": "Client-side, read-only auction tracker. Detects server-confirmed payments in chat, tracks the highest bid, never sends chat, payments or items by itself.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.donutauction.DonutAuctionMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
